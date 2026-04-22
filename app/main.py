@@ -2,7 +2,6 @@ def copy_file(command: str) -> None:
     parts = command.split()
 
     if len(parts) != 3:
-        print("Der Code ist gefälscht, es sollten 2 Schritte statt 3 sein.")
         return
 
     if parts[0] != "cp":
